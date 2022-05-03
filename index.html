@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <br/><br/>
+    <div class="grid-container"> 
+
+        <!--screen-->
+        <div class="grid-item display">
+            <input type="text" id="display" class="display-input" disabled="disabled" />
+        </div>
+
+        <!--row 1-->
+        <div class="grid-item">
+            <button class="num-btn" id="exponentiation" onclick="exponentiation()">
+                xʸ
+            </button>
+        </div>
+
+        <div class="grid-item">
+            <button class="num-btn" id="(" onclick="leftParenthesis()">
+                (
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id=")" onclick="rightParenthesis()">
+                )
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="+" onclick="btnPlus()">
+                +
+            </button>
+        </div>
+
+        <!--row 2-->
+        <div class="grid-item">
+            <button class="num-btn" id="7" onclick="btn7()">
+                7
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="8" onclick="btn8()">
+                8
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="9" onclick="btn9()">
+                9
+            </button>
+        </div> 
+        <div class="grid-item">
+            <button class="num-btn" id="-" onclick="btnMinus()">
+                -
+            </button>
+        </div>   
+
+        <!--row 3-->
+        <div class="grid-item">
+            <button class="num-btn" id="4" onclick="btn4()">
+                4
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="5" onclick="btn5()">
+                5
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="6" onclick="btn6()">
+                6
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="*" onclick="btnTimes()">
+                *
+            </button>
+        </div> 
+
+        <!--row 4-->
+        <div class="grid-item">
+            <button class="num-btn" id="1" onclick="btn1()">
+                1
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="2" onclick="btn2()">
+                2
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="3" onclick="btn3()">
+                3
+            </button>
+        </div> 
+        <div class="grid-item">
+            <button class="num-btn" id="/" onclick="btnDivision()">
+                /
+            </button>
+        </div>
+
+        <!--row 5-->
+        <div class="grid-item c-btn">
+            <button class="num-btn" id="btn-cancel" onclick="btnCancel()">
+                C
+            </button>
+        </div>
+        <div class="grid-item">
+            <button class="num-btn" id="0" onclick="btn0()">
+                0
+            </button>
+        </div> 
+        <div class="grid-item">
+            <button class="num-btn" id="." onclick="btnDot()">
+                .
+            </button>
+        </div> 
+        <div class="grid-item">
+            <button class="num-btn" id="=" onclick="btnEquals()">
+                =
+            </button>
+        </div> 
+
+    </div>
+    
+</body>
+</html>

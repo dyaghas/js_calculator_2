@@ -1,0 +1,62 @@
+.grid-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto auto;
+    background-color: #2196F3;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    gap: 5px;
+}
+
+.grid-item {
+    background-color: #aed0eb;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.grid-item:hover {
+    background-color: #7abae6;
+}
+
+.grid-item:active {
+    background-color: #2196F3;
+}
+
+.num-btn {
+    font-size: 2em;
+    text-decoration: none;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 20% 0% 20% 0%;
+}
+
+.equals {
+    grid-column: span 2;
+}
+
+.c-btn {
+    background-color: #e37d76;
+}
+
+.c-btn:hover {
+    background-color: #e6554c;
+}
+
+.c-btn:active {
+    background-color: #e62f22;
+}
+
+.display {
+    grid-column: span 4;
+}
+
+.display-input {
+    background-color: #114a78;
+    color: black;
+    width: 100%;
+    border: none;
+    font-size: 3em;
+    padding: 50px 0px 50px 0px;
+}
